@@ -4,21 +4,21 @@
             <LogoAdminbolt class="hover:opacity-90 transition-all duration-300 hover:scale-105"></LogoAdminbolt>
         </div>
         <nav class="hidden md:flex items-center space-x-10">
-            <a href="/docs" 
+            <a href="https://docs.adminbolt.com" target="_blank"
                class="group relative px-1 py-2 text-gray-100 font-medium text-[15px] tracking-wide hover:text-white transition-all duration-300 animate-slideDown hover:-translate-y-0.5"
                style="animation-delay: 100ms">
                 Docs
                 <span class="absolute bottom-0 left-0 w-full h-[2px] bg-primary-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out"></span>
                 <span class="absolute -inset-1 scale-x-0 group-hover:scale-100 transition-transform duration-300 bg-white/5 rounded-lg"></span>
             </a>
-            <a href="/community" 
+            <a href="https://community.adminbolt.com" target="_blank"
                class="group relative px-1 py-2 text-gray-100 font-medium text-[15px] tracking-wide hover:text-white transition-all duration-300 animate-slideDown hover:-translate-y-0.5"
                style="animation-delay: 200ms">
                 Community
                 <span class="absolute bottom-0 left-0 w-full h-[2px] bg-primary-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out"></span>
                 <span class="absolute -inset-1 scale-x-0 group-hover:scale-100 transition-transform duration-300 bg-white/5 rounded-lg"></span>
             </a>
-            <a href="/client-area" 
+            <a href="https://billing.adminbolt.com" target="_blank"
                class="group relative px-1 py-2 text-gray-100 font-medium text-[15px] tracking-wide hover:text-white transition-all duration-300 animate-slideDown hover:-translate-y-0.5"
                style="animation-delay: 300ms">
                 Client Area
