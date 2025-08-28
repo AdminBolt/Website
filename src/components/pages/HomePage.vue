@@ -1,4 +1,5 @@
 <template>
+    <MiniTopBar></MiniTopBar>
     <TopBar></TopBar>
     <MainBanner
         title="The Hosting <span class=text-primary-100>Control Panel</span> of The Future"

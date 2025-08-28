@@ -1,11 +1,11 @@
 
 <template>
-    <header class="flex justify-center pt-12 flex-col relative pb-30 max-md:pb-24 max-sm:pb-18 max-md:pt-10 max-sm:pt-8">
+    <header class="flex justify-center pt-20 flex-col relative pb-30 max-md:pb-24 max-sm:pb-18 max-md:pt-16 max-sm:pt-14">
         <div class="container-sm mx-auto text-center">
             <h1 class="text-h1 mb-6 font-semibold text-heading" v-html="title"></h1>
             <p class="text-typography text-xlg pb-10 font-light" v-html="subTitle"></p>
             <div v-if="actions" class="flex justify-center gap-x-6 max-sm:flex-col max-sm:gap-y-6">
-                <BtnPrimary :animation=true  url="#contact" class="max-h-16 text-lg py-4 px-6" text="Contact Us"></BtnPrimary>
+                <BtnPrimary :animation=true  url="#contact" class="max-h-16 text-lg py-4 px-6" text="Join Us"></BtnPrimary>
                 <BtnPrimaryOutline :animation=true url="#package"  class="max-h-16 text-lg" text="Learn More"></BtnPrimaryOutline>
             </div>
         </div>
@@ -71,7 +71,7 @@ video{
     width: 100%;
     height: 1160px;
     position: absolute;
-    top: -80px;
+    top: -180px;
     left: 0;
     z-index: -1;
     .animation{

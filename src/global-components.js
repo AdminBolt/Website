@@ -13,6 +13,7 @@ import NewsletterForm from './components/sections/newsletter-form.vue';
 //footer & topbar
 import FooterIcons from './components/footer/footer-icons.vue';
 import TopBar from './components/nav/top-bar.vue';
+import MiniTopBar from './components/nav/mini-topbar.vue';
 
 // icons
 import BtnArrow from './components/icons/btn-arrow.vue';
@@ -50,6 +51,7 @@ export default function globalComponents(app) {
     .component('BtnPrimary', BtnPrimary)
     .component('BtnPrimaryOutline', BtnPrimaryOutline)
     .component('FooterIcons',FooterIcons)
+    .component('MiniTopBar',MiniTopBar)
     .component('TopBar',TopBar)
     .component('FeaturesBeginning',FeaturesBeginning)
     .component('IntegrationsBoxed', IntegrationsBoxed)
