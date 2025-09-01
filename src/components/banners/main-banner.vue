@@ -5,7 +5,7 @@
             <h1 class="text-h1 mb-6 font-semibold text-heading" v-html="title"></h1>
             <p class="text-typography text-xlg pb-10 font-light" v-html="subTitle"></p>
             <div v-if="actions" class="flex justify-center gap-x-6 max-sm:flex-col max-sm:gap-y-6">
-                <BtnPrimary :animation=true  url="#contact" class="max-h-16 text-lg py-4 px-6" text="Join Us"></BtnPrimary>
+                <BtnPrimary :animation=true  url="https://billing.adminbolt.com/register.php" class="max-h-16 text-lg py-4 px-6" text="Join Us"></BtnPrimary>
                 <BtnPrimaryOutline :animation=true url="#package"  class="max-h-16 text-lg" text="Learn More"></BtnPrimaryOutline>
             </div>
         </div>
