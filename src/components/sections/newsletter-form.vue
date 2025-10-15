@@ -121,6 +121,15 @@ export default {
     },
     methods: {
         getRecaptchaToken() {
+            this.btnLoader();
+            
+            if (typeof grecaptcha === 'undefined') {
+                console.error('reCAPTCHA not loaded');
+                document.querySelector('.alert-danger').classList.remove('hidden');
+                this.removeBtnLoader();
+                return;
+            }
+            
             let self = this;
             grecaptcha.ready(function() {
                 grecaptcha.execute('6LdMQuoqAAAAAKhgoKO3A4dh5jbCJnj3yknYtXjU', {action: 'newsletter_form'}).then(function(token) {
@@ -130,7 +139,6 @@ export default {
             });
         },
         async submitForm() {
-            this.btnLoader();
             if(!document.querySelector('.alert-danger').classList.contains('hidden')){
                 document.querySelector('.alert-danger').classList.add('hidden')
             }   
@@ -203,6 +211,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 input[type="number"] {
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 </style>
