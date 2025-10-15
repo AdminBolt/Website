@@ -5,7 +5,7 @@
         <span class="inline-flex items-center gap-2 max-sm:flex-col max-sm:items-center max-sm:text-center">
           <span class="inline-flex items-center px-2 py-1 text-xs font-medium bg-[#E38711] text-black rounded max-sm:hidden">BETA 2 IS HERE!</span>
           <span class="text-[#D1D1D1] max-sm:text-xs max-sm:px-4">🚀 Join the exclusive beta and shape the future of server management</span>
-          <a href="https://billing.adminbolt.com/register.php" target="_blank" class="text-[#E38711] hover:text-[#F09F38] transition-colors ml-2 text-xs font-medium max-sm:ml-0 max-sm:mt-2">Request Access →</a>
+          <a href="https://get.adminbolt.com" target="_blank" class="text-[#E38711] hover:text-[#F09F38] transition-colors ml-2 text-xs font-medium max-sm:ml-0 max-sm:mt-2">INSTALL NOW →</a>
         </span>
       </div>
     </div>

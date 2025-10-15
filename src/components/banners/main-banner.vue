@@ -5,8 +5,8 @@
             <h1 class="text-h1 mb-6 font-semibold text-heading" v-html="title"></h1>
             <p class="text-typography text-xlg pb-10 font-light" v-html="subTitle"></p>
             <div v-if="actions" class="flex justify-center gap-x-6 max-sm:flex-col max-sm:gap-y-6">
-                <BtnPrimary :animation=true  url="https://billing.adminbolt.com/register.php" class="max-h-16 text-lg py-4 px-6" text="Join Us"></BtnPrimary>
-                <BtnPrimaryOutline :animation=true url="#package"  class="max-h-16 text-lg" text="Learn More"></BtnPrimaryOutline>
+<!--                <BtnPrimary :animation=true  url="https://billing.adminbolt.com/register.php" class="max-h-16 text-lg py-4 px-6" text="Join Us"></BtnPrimary>-->
+                <BtnPrimaryOutline :animation=true after-text="get.adminbolt.com" url="https://get.adminbolt.com" target="_blank" class="max-h-16 text-lg" text="INSTALL NOW"></BtnPrimaryOutline>
             </div>
         </div>
         <div class="mx-auto text-center pt-18 max-md:pt-10 max-sm:pt-8 py-8 max-w-[1104px] max-md:min-h-[100%] w-full px-8 relative">
