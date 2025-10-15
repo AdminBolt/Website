@@ -16,6 +16,12 @@
                 Community
                 <span class="absolute bottom-0 left-0 w-full h-[2px] bg-white origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
             </a>
+          <a href="https://discord.gg/NeXqchwE"
+             class="group relative px-1 py-2 text-gray-100 font-medium text-[15px] tracking-wide hover:text-white transition-all duration-300 animate-slideDown"
+             style="animation-delay: 200ms">
+            Discord
+            <span class="absolute bottom-0 left-0 w-full h-[2px] bg-white origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
+          </a>
             <a href="https://billing.adminbolt.com" target="_blank"
                class="group relative px-1 py-2 text-gray-100 font-medium text-[15px] tracking-wide hover:text-white transition-all duration-300 animate-slideDown"
                style="animation-delay: 300ms">
